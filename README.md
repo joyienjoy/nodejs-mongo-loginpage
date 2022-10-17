@@ -26,3 +26,6 @@ db.users.find().pretty()  # To see contents of all registed users
 ![image](https://user-images.githubusercontent.com/92083624/195573679-daa26afd-eb0d-47fb-ad47-50dbed234811.png)
 
 
+Essentials of Docker Compose 
+1. The name of the MONGODB container is used in the URL of database in server.js to use mongoose.connect
+2. Volume mounting is done to avoid losing data
