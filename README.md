@@ -28,4 +28,4 @@ db.users.find().pretty()  # To see contents of all registed users
 
 Essentials of Docker Compose 
 1. The name of the MONGODB container is used in the URL of database in server.js to use mongoose.connect
-2. Volume mounting is done to avoid losing data
+2. Volume mounting is done to avoid losing database data. That is, If you are redeploying the MONGODB container in the same machine. The user details created initially will be retained as it is.
